@@ -1,0 +1,40 @@
+# .dockerignore
+# Exclude files and directories from the Docker build context
+
+# Git
+.git
+.gitignore
+
+# Virtual environments
+.venv
+venv
+env
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Testing
+test_*.py
+*_test.py
+
+# Large binary files
+*.dll
+*.lib
+*.pyd
+
+# Cache files
+**/__pycache__
+*.pyc
+
+# Uploads directory
+uploads/
