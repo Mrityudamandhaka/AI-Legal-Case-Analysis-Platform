@@ -1,0 +1,36 @@
+# .dockerignore
+# Exclude files and directories from the Docker build context
+
+# Git
+.git
+.gitignore
+
+# Node modules
+node_modules
+
+# Logs
+*.log
+
+# Testing
+**/*.test.js
+**/*.test.ts
+**/*.spec.js
+**/*.spec.ts
+
+# Next.js
+.next
+out
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Cache files
+**/.next
+.cache
