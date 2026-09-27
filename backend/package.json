@@ -1,0 +1,21 @@
+{
+  "name": "lawmind-backend",
+  "version": "1.0.0",
+  "description": "Backend for LawMind legal document analysis application",
+  "main": "main.py",
+  "scripts": {
+    "start": "uvicorn main:app --host 0.0.0.0 --port 8000",
+    "dev": "uvicorn main:app --reload --port 8000",
+    "test": "python -m pytest"
+  },
+  "dependencies": {
+    "fastapi": "^0.115.0",
+    "uvicorn": "^0.30.1",
+    "python-dotenv": "^1.0.1",
+    "httpx": "^0.27.0",
+    "PyMuPDF": "^1.24.2",
+    "pydantic": "^2.8.2"
+  },
+  "author": "LawMind Team",
+  "license": "MIT"
+}
